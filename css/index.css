@@ -46,3 +46,47 @@ p {
 .customNav a:hover {
   color: rgb(13, 43, 85);
 }
+
+/* Jumbotron */
+.jumbo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background: linear-gradient(
+      90deg,
+      rgba(7, 91, 15, 0.787),
+      rgba(10, 100, 152, 0.828)
+    );
+   
+    text-align: center;
+    padding-right: 230px !important;
+    
+  }
+  .text {
+    max-width: 82vw !important;
+    color: #f5f5f5;
+  }
+  h1 {
+    color: rgb(229, 217, 217);
+  }
+  .jumbo img {
+    position: absolute;
+  
+    max-width: 13%;
+    height: auto;
+  
+    border-radius: 50%;
+    top: 50px;
+    right: 20px;
+  
+    z-index: 12;
+  }
+  .jumbo {
+    position: relative;
+  }
+  
+  .jumbo img {
+    position: absolute;
+    z-index: 1;
+  }
