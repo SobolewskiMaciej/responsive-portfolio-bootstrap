@@ -90,3 +90,44 @@ p {
     position: absolute;
     z-index: 1;
   }
+
+  /* Work Section */
+.cardContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .card {
+    margin: 0 auto;
+    background: linear-gradient(
+      90deg,
+      rgba(6, 70, 107, 0.828),
+      rgba(5, 75, 12, 0.888)
+    ) !important;
+    color: aliceblue;
+  }
+  .card-img-top {
+    padding: 0px;
+  
+    border: solid rgba(10, 100, 152, 0.828) 10px;
+  
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+  }
+  .btn {
+    background-color: rgba(7, 91, 15, 0.787);
+  }
+  /* Skils */
+  #skills {
+    padding-top: 30px;
+    color: #e9e0e0;
+    text-align: center;
+  
+    background: linear-gradient(
+      220deg,
+      rgba(7, 91, 15, 0.787),
+      rgba(10, 100, 152, 0.828)
+    ) !important;
+    
+    height: 180px;
+  }
