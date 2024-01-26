@@ -1,0 +1,48 @@
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Anton", sans-serif;
+}
+p {
+  font-family: "Jura", sans-serif;
+}
+
+/* Navigation bar */
+
+.customNav {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(6, 70, 107, 0.828),
+    rgba(5, 75, 12, 0.888)
+  ) !important;
+  background-size: cover;
+  z-index: 10;
+  border-bottom: solid rgb(0, 0, 0) 3px;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+.navbar-toggler {
+  background-color: rgba(10, 100, 152, 0.828);
+}
+
+/* Navigation links */
+.customNav a {
+  color: #ded1d1;
+  font-size: large;
+  font-weight: bold;
+}
+
+.customNav a:hover {
+  color: rgb(13, 43, 85);
+}
