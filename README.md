@@ -10,7 +10,7 @@ Portfolio page, which I can add to as the course progresses
 
 ## Screenshot of deployed website.
 
-![Alt text](images/Deployed%20website.png)
+![Alt text](images/screenshot-portfolio.png)
 
 Pictures provided by EdX Front end development bootcamp.
 
